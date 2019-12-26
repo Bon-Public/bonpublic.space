@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #212121 ;
+    color: white;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    width: 72%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 95.5vh;
+}
+
+.text-green {
+    color: #08FF03;
+}
+
+.green {
+    background-color: #08FF03;
+}
+
+/* Navigation Section */
+
+nav {
+    margin: 15px 0 30px 0;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav ul li {
+    text-transform: uppercase;
+    float: left;
+    list-style: none;
+}
+
+nav  ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 3.7vw;
+    font-weight: bold;
+    transition: color, ease-in 0.2s;
+}
+
+nav  ul li a:hover {
+    color: #08FF03;
+    transition: color, ease-in 0.2s;
+}
+
+
+/* Content Section */
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 5%;
+}
+
+.content .featured_image {
+    width: 50%;
+}
+
+.content .featured_image img {
+    width: 100%;
+    z-index: 10;
+    position: relative;
+}
+
+.content .featured_image .rect {
+    width: 40%;
+    height: 40%;
+}
+
+.left-top {
+    position: relative;
+    top: -105%;
+    z-index: 5;
+    left: -5%;
+}
+
+.right-bottom {
+    position: relative;
+    top: -75%;
+    z-index: 5;
+    left: 66%;
+}
+
+.content .text {
+    padding: 0 0 0 100px;
+    width: 50%;
+}
+.content .text  h1{
+    font-size: 3.5vw;
+    margin: 0;
+}
+
+.content .text p {
+    font-size: 1.9vw;
+}
+
+/* Sliding Footer Section */
+footer {
+    height: 40px;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer p a {
+    color: black;
+    text-decoration: none;
+    font-size: 27px;
+}
